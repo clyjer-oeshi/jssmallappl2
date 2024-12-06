@@ -1,0 +1,50 @@
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 25px; */
+
+    line-height: 30px;
+
+    /* margin: 0;
+    padding: 0; */
+}
+
+.headers{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+.titles{
+    background-color: rgb(237, 234, 29);
+    color: rgb(33, 6, 43);
+
+    font-size: 30px;
+    text-align: center;
+
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+.progresss{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(220, 220, 241);
+}
+
+.progress-bars{
+    width: 0;
+    height: inherit;
+    background-color: rgb(58, 3, 108);
+}
+
+.contents{
+    width: 80%;
+    text-align: justify;
+
+    padding: 100px 0;
+    margin: 100px auto;
+}

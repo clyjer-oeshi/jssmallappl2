@@ -1,0 +1,48 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 40px;
+
+    position: static;
+
+
+}
+
+.titles{
+    background-color:steelblue ;
+
+    /* to get background-color in print.css */
+    -webkit-print-color-adjust:exact;
+}
+
+.contents{
+    background-color: rgb(252, 210, 210);
+    color: blue;
+
+    padding: 20px;
+
+    /* to get background-color in print.css */
+    -webkit-print-color-adjust:exact;
+}
+
+
+
+.print-btn{
+    display: none;
+}
+
+@page{
+    size: auto;
+
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
